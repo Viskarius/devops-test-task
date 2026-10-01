@@ -1,0 +1,22 @@
+# Certificates (генерируются локально через gen-certs.sh)
+certs/
+
+# Secrets (редактируются локально)
+.env
+
+# Docker volumes
+pg_data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
